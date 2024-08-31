@@ -1,0 +1,288 @@
+header {
+    border: 0px;
+    padding: 5px;
+    margin: 0;
+    background: rgb(245,111,111);
+    background: linear-gradient(90deg, rgba(245,111,111,1) 0%, rgba(241,246,171,1) 53%,  rgba(250,202,133,1) 100%);
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    font-family: "SimSun";
+    font-size: 100px;
+}
+
+header h4 {
+    text-align: center;
+    color: black
+
+}
+
+body {
+    background-image:  url(https://imgs.699pic.com/images/600/623/877.jpg!list1x.v2);
+    background-size: contain;
+    visibility: unset;
+}
+
+h2{
+   color: 46fffe;
+}
+
+
+h3{
+   color: a35cfc;
+}
+
+h4{
+   color: ffc410;
+}
+hr {
+    border-top: 3px dotted;
+}
+
+.content {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size:50px;
+    font-family: "KaiTi";
+    padding: 5px;
+    margin: 5px;
+    font-align: center;
+}
+
+.intro {
+    display: flex;
+    font-size:25px;
+    background-color:#ee6d6d;
+    
+}
+
+.image1 {
+    display: flex;
+}
+
+.jianjie {
+    background-color: #fff5c5;
+    border: 0px;
+    padding: 10px;
+    margin: 0px;
+    font-family: "FangSong";
+}
+
+
+.content {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.content a:link {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+.content a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h2 {
+    color:orange
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "KaiTi";
+}
+
+.贡献 {
+    display: flex;
+    font-size: 18px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ee6d6d;
+    align-items: center;
+    border: 5px solid #ce0505;
+    padding: 10px;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 20px;
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color: #fff5c5;
+  margin: 15px;
+  padding: 5px 20px;
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: nowrap;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 5px solid #ce0505;
+  border-radius: 10px;
+  font-family: "FangSong"
+}
+
+
+.characteristic {
+    display: flex;
+    background-color:#ee6d6d;
+    border: 0px;
+    padding: 5px;
+    margin: 100px;
+    border-radius: 40px;
+}
+
+
+.image2 {
+    display: flex;
+    align="right;
+    border-radius: 50px;
+}
+
+.性格 ul {
+   font-style: white;
+   font-size:15px;
+   padding: 20px;
+   line-height: 2.0em;
+   width: 90%;
+}
+
+.chengjiu1 {
+    color: black;
+    font-size: 20px;
+    font-family: Microsoft JhengHei ;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6em;
+
+ background: rgb(230,167,119);
+ background: linear-gradient(217deg, rgba(230,167,119,1) 0%, rgba(238,211,112,1) 100%);
+    border: 2px dashed black
+    
+    
+}
+
+.chengjiu2 {
+    color: black;
+    font-size: 20px;
+    font-family: Microsoft JhengHei ;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6em;
+   background: rgb(230,167,119);
+background: linear-gradient(217deg, rgba(230,167,119,1) 0%, rgba(238,211,112,1) 100%);
+    border: 2px dashed black
+}
+
+.chengjiu3 {
+    color: black;
+    font-size: 20px;
+    font-family: Microsoft JhengHei ;
+    text-align: center;
+     margin: 20px;
+     padding: 20px;
+    line-height: 1.6em;
+ background: rgb(230,167,119);
+background: linear-gradient(217deg, rgba(230,167,119,1) 0%, rgba(238,211,112,1) 100%);
+	border: 2px dashed black
+}
+
+.爱恨情仇 {
+    display:flex;
+    background-color:#f9c3ac;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px;
+    
+}
+
+.爱恨情仇 div{
+    width:350px;
+    text-align:center;   
+}
+.爱恨情仇 img{
+        width:100%;
+    border-radius: 20px;
+}
+
+.爱恨情仇 h3 {
+    font-size:30px;
+    font-family:KaiTi;
+    margin: 15px 0;
+   
+}
+.爱恨情仇 p {
+    font-size:20px;
+    font-family: NSimSun;
+    line-height: 1.6em;
+}
+
+.石榴裙{
+    color: black;
+    font-size: 20px;
+    font-family: SimSun ;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6em;
+
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: 2px dashed black
+    
+    
+}
+
+.龙袍 {
+    color: black;
+    font-size: 20px;
+    font-family: SimSun ;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6em;
+ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: 2px dashed black
+}
+
+
+.男装 {
+    color: black;
+    font-size: 20px;
+    font-family: SimSun ;
+    text-align: center;
+     margin: 20px;
+     padding: 20px;
+    line-height: 1.6em;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	border: 2px dashed black
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    line-height: 1.0em;
+    background: black;
+    border: 0px;
+    position-bottom:0px;
+
+}
